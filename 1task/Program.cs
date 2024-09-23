@@ -17,7 +17,10 @@ namespace _1task
             Console.WriteLine("Вихри снежные крутя,");
             Console.WriteLine("То как зверь она завоет,");
             Console.WriteLine("То заплачет как дитя.");
-            Console.ReadKey();  
+            
+
+            Console.ResetColor();
+            Console.ReadKey();
         }
     }
 }
