@@ -26,6 +26,17 @@ namespace task2
             Console.WriteLine("sin(37)=" + Math.Round(sin, 3));
             Console.WriteLine("cos(37)=" + Math.Round(cos, 3));
 
+            Console.WriteLine();
+            Console.WriteLine("введите значение угла в градусах:");
+            angleInDegrees = double.Parse(Console.ReadLine());
+
+            angleInRadians = (angleInDegrees * Math.PI / 180);
+            sin = Math.Sin(angleInRadians);
+            cos = Math.Cos(angleInRadians);
+
+            Console.WriteLine("sin(" +angleInDegrees + ")=" + Math.Round(sin, 3));
+            Console.WriteLine("cos(" +angleInDegrees + ")=" + Math.Round(cos, 3));
+
             Console.ReadKey();
         }
     }
