@@ -18,10 +18,10 @@ namespace task06
         }
         static string LeetTranslate(string s)
         {
-            s=s 
+            s = s
                 .ToUpper()
-                .Replace("A","4")
-                .Replace("B","8")
+                .Replace("A", "4")
+                .Replace("B", "8")
                 .Replace("C", "(")
                 .Replace("D", "|)")
                 .Replace("E", "3")
@@ -32,8 +32,8 @@ namespace task06
                 .Replace("J", ")")
                 .Replace("K", "|<")
                 .Replace("L", "1")
-                .Replace("M", "|\/|")
-                .Replace("N", "|\|")
+                .Replace("M", "|\\/|")
+                .Replace("N", "|\\|")
                 .Replace("O", "0")
                 .Replace("P", "|>")
                 .Replace("Q", "9")
@@ -41,12 +41,12 @@ namespace task06
                 .Replace("S", "5")
                 .Replace("T", "7")
                 .Replace("U", "|_|")
-                .Replace("V", "\/")
-                .Replace("W", "\/\/")
+                .Replace("V", "\\/")
+                .Replace("W", "\\/\\/")
                 .Replace("X", "><")
                 .Replace("Y", "'/")
-                .Replace("Z", "2")
-
-        }
+                .Replace("Z", "2");
+            return s;
+                }
     }
 }
